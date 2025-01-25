@@ -1,0 +1,20 @@
+.dark-transition {
+  transition: color 250ms, background-color 250ms;
+}
+
+.bg-dark::placeholder {
+  color: var(--light);
+}
+
+/* New styles for black and red color scheme */
+.nav-portfolio .nav-link {
+  color: red; /* Change link color to red */
+}
+
+.nav-portfolio .nav-link:hover {
+  color: #ffcccc; /* Lighter red on hover */
+}
+
+.nav-portfolio .active {
+  color: #ffcccc; /* Lighter red for active link */
+}
